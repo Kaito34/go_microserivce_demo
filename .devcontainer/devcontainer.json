@@ -1,0 +1,38 @@
+{
+  "name": "go_microservice_demo",
+  "dockerComposeFile": ["docker-compose.yml"],
+  "service": "app",
+  "workspaceFolder": "/go_microservice_demo/src/work",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "go.toolsManagement.checkForUpdates": "off",
+    "go.gopath": "/go_microservice_demo",
+    "go.gocodeAutoBuild": true,
+    "go.formatTool": "gofmt",
+    "go.useLanguageServer": true,
+    "editor.formatOnSave": false,
+    "[go]": {
+      "editor.formatOnSave": true
+    },
+    "[cpp]": {
+      "editor.formatOnSave": true
+    }
+  },
+  "extensions": [
+    "GrapeCity.gc-excelviewer",
+    "ms-vscode.cpptools",
+    "ms-vscode.cmake-tools",
+    "vadimcn.vscode-lldb",
+    "cheshirekow.cmake-format",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "doggy8088.go-extension-pack",
+    "formulahendry.code-runner",
+    "golang.go",
+    "MS-CEINTL.vscode-language-pack-ja",
+    "msyrus.go-doc",
+    "nhoizey.gremlins",
+    "quicktype.quicktype",
+    "zxh404.vscode-proto3"
+  ]
+}

@@ -1,0 +1,11 @@
+version: "3"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    tty: true
+    stdin_open: true
+    command: /bin/bash
+    volumes:
+      - ..:/go_microservice_demo/src/work
